@@ -11,7 +11,7 @@ const DescripTitle = styled.h3`
 font-family: 'Anton', sans-serif;
 
 `
-const DescripComp = props => {
+const Descrip = props => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -31,4 +31,4 @@ const DescripComp = props => {
   );
 };
 
-export default DescripComp;
+export default Descrip;
